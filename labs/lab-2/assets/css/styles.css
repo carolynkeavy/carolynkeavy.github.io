@@ -5,6 +5,15 @@ body {
 	padding: 0;
 
 }
+.wrapper {
+	height: 500px;
+	width: 500px;
+	transform: translate(-50%,-50%);
+
+	position: relative;
+
+
+}
 
 .yellow-box {
 	width: 500px;
