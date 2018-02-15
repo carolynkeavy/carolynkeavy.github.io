@@ -1,73 +1,45 @@
 * {box-sizing: border-box;}
 
+div { vertical-align: top;}
+
 body {
-	margin: 0;
-	padding: 0;
-	background: #ff0;
+  font-size: 0;
+  margin: 0;
+  padding: 0;
 }
 
-.square {
-	width: 250px;
-	height: 250px;
-	background: #000000;
-	padding: 15px;
-	margin: 0 0 20px 0;
+.wrapper {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1000px;
 }
 
-.circle {
-	width: 50px;
-	height: 50px;
-	border-radius: 100%;
+.c {
+  font-size: 14px;
+  background: #0f0;
+  border-bottom: 2px solid #f00;
+  display: inline-block;
+  /* padding: 0 15px 50px 15px;*/
+  margin: 0 15px 50px 15px;
+  /* min-width: 100px;*/
 }
 
-.white { 
-	background: #fff;
-}
+.c1 {width: calc(25% - 30px);}
+.c2 {width: calc(50% - 30px);}
+.c3 {width: calc(75% - 30px);}
+.c4 {width: calc(100% - 30px);}
 
-.blue { 
-	background: #00f;
-}
+@media only screen and (max-width: 700px) {
+  .wrapper {max-width: 500px;}
+  .c {
+     max-width: 500px;
+    background: #ff0;}
+    .c1 {width: calc(100% - 30px);}
+    .c2 {width: calc(100% - 30px);}
+    .c3 {width: calc(100% - 30px);}
+    .c4 {width: calc(100% - 30px);}
+  }
 
-.static { 
-	position: static; 
-}
-.relative {
-	position: relative; 
-}
-.absolute { 
-	position: absolute; 
-}
-.fixed { 
-	position: fixed; 
-}
-
-.relative.white {
-	bottom: 20px;
-	right: 10px;
-}
-
-.absolute.white {
-	top: 0;
-	left: 0;
-}
-
-	.absolute.white.centered {
-		top: 50%;
-		left: 50%;
-		right: auto;
-		bottom: auto;
-		transform: translate (-50%, -50%);
-	}
-
-h1 {
-			position: fixed;
-			right: 20px;
-			top: 20px;
-			color: #ff00;
-			margin: 0;
-			padding: 0;
-			z-index: 10;
-		}
-
-	
-
+  img {
+    width: 50%;
+  }
