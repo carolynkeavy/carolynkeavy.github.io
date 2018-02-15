@@ -1,18 +1,21 @@
-h2 {
-	color:#f00;
+body {
+	font-family: Cochin;
+	font-size: 28px;
+	background-color: blueviolet;
+	margin: 50px;
+	text-align: center; 
 }
-div {
-	background: #ff0;
-	margin: 0 0 200px 0;
+
+h{
+	text-transform: uppercase;
+	letter-spacing: 15px;
 }
-.header {
-	background: #f00;
-}
-.content {
-	background: #0f0;
-}
-.footer {
-	background: #0f0;
-	margin: 0 0 0 0;
+
+.title {
+	font-family: Tahoma;
+	font-size: 28px; 
+	color: yellowgreen
+	letter-spacing: 25px; 
+	padding: 50px;
 }
 

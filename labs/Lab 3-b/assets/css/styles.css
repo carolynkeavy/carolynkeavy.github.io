@@ -40,7 +40,10 @@ body {
 .fixed { 
 	position: fixed; 
 }
-
+.square.fixed {
+	top: 0;
+	right: 0;
+}
 .relative.white {
 	bottom: 20px;
 	right: 10px;
@@ -60,14 +63,23 @@ body {
 	}
 
 h1 {
-			position: fixed;
-			right: 20px;
-			top: 20px;
-			color: #ff00;
-			margin: 0;
-			padding: 0;
-			z-index: 10;
-		}
+		position: fixed;
+		right: 20px;
+		top: 20px;
+		color: rgb(255, 0, 0);
+		margin: 0;
+		padding: 0;
+		z-index: 10;
+	}
 
+h3 {
+	position: fixed;
+	right: 20px;
+	top: 20px;
+	color: rgb(255, 255, 0);
+	margin: 0;
+	padding: 0;
+	z-index: 10;
+	}
 	
 
