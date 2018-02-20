@@ -38,4 +38,11 @@ body {
 
 .item:hover .add-button {
 	border-bottom: 2px solid#000;
+
+	.item.in-cart img{
+	opacity:.25;
+	}
+	.item.in cart .decription {
+		display. none
+	}
 }
