@@ -3,9 +3,9 @@
 div { vertical-align: top;}
 
 body {
-  font-size: 0;
-  margin: 0;
-  padding: 0;
+font-size: 0;
+margin: 0;
+padding:0;
 }
 
 .wrapper {
@@ -19,9 +19,9 @@ body {
   background: #0f0;
   border-bottom: 2px solid #f00;
   display: inline-block;
-  /* padding: 0 15px 50px 15px;*/
+  /* padding: 0 15px 50px 15px; */
   margin: 0 15px 50px 15px;
-  /* min-width: 100px;*/
+  /* min-width: 100px; */
 }
 
 .c1 {width: calc(25% - 30px);}
@@ -32,14 +32,16 @@ body {
 @media only screen and (max-width: 700px) {
   .wrapper {max-width: 500px;}
   .c {
-     max-width: 500px;
-    background: #ff0;}
-    .c1 {width: calc(100% - 30px);}
-    .c2 {width: calc(100% - 30px);}
-    .c3 {width: calc(100% - 30px);}
-    .c4 {width: calc(100% - 30px);}
-  }
+    max-width: 500px;
+  background: #ff0;}
+  .c1 {width: calc(100% - 30px);}
+  .c2 {width: calc(100% - 30px);}
+  .c3 {width: calc(100% - 30px);}
+  .c4 {width: calc(100% - 30px);}
+}
 
-  img {
-    width: 50%;
-  }
+img {
+  width: 50%;
+}
+
+
