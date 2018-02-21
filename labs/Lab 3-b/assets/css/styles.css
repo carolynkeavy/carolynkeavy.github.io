@@ -1,85 +1,73 @@
 * {box-sizing: border-box;}
 
 body {
-	margin: 0;
-	padding: 0;
-	background: #ff0;
+background: yellow;
+margin: 50px;
+padding:0;
 }
 
 .square {
-	width: 250px;
-	height: 250px;
-	background: #000000;
-	padding: 15px;
-	margin: 0 0 20px 0;
+  width: 250px;
+  height: 250px;
+  background: black;
+  padding: 15px;
+  margin: 0 0 20px 0;
 }
 
 .circle {
-	width: 50px;
-	height: 50px;
-	border-radius: 100%;
+  border-radius: 100%;
+  width: 50px;
+  height: 50px;
 }
 
-.white { 
-	background: #fff;
-}
+.white { background: #fff; }
+.blue { background:blue; }
 
-.blue { 
-	background: #00f;
-}
+.static { position: static;}
+.relative { position: static;}
+.absolute { position: absolute;}
+.fixed { position: fixed;}
 
-.static { 
-	position: static; 
-}
-.relative {
-	position: relative; 
-}
-.absolute { 
-	position: absolute; 
-}
-.fixed { 
-	position: fixed; 
-}
 .square.fixed {
-	top: 0;
-	right: 0;
+  top: 0;
+  right: 0;
 }
 .relative.white {
-	bottom: 20px;
-	right: 10px;
+  top: 20px;
+  left: 10px;
 }
 
 .absolute.white {
-	top: 0;
-	left: 0;
+  bottom: 0;
+  right: 0;
 }
 
-	.absolute.white.centered {
-		top: 50%;
-		left: 50%;
-		right: auto;
-		bottom: auto;
-		transform: translate (-50%, -50%);
-	}
+.white.absolute.centered {
+  top: 50%;
+  left: 50%;
+  right: auto;
+  bottom: auto;
+  transform: translate(-50%,-50%);
+}
 
 h1 {
-		position: fixed;
-		right: 20px;
-		top: 20px;
-		color: rgb(255, 0, 0);
-		margin: 0;
-		padding: 0;
-		z-index: 10;
-	}
+  position: fixed;
+  right: 20px;
+  top: 20px;
+  color: red;
+  margin: 0;
+  padding: 0;
+  z-index: 10;
+}
 
 h3 {
-	position: fixed;
-	right: 20px;
-	top: 20px;
-	color: rgb(255, 255, 0);
-	margin: 0;
-	padding: 0;
-	z-index: 10;
-	}
-	
+  position: fixed;
+  right: 20px;
+  top: 20px;
+  color: yellow;
+  margin: 0;
+  padding: 0;
+  z-index: 10;
+}
+
 
