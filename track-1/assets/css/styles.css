@@ -1,0 +1,45 @@
+body{
+    margin:0 auto;
+    text-align:center;
+  }
+  
+  
+  h1  {
+    color: magenta;
+    font-size: 150px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    text-align: center;
+  }
+  
+    h2{
+  
+    color: black;
+    font-size: 150px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    text-align: center;
+    }
+  
+    h3{
+      color: black;
+      font-size: 120;
+      font-weight: bolder;
+      text-align: center;
+    }
+  
+    h4{
+        color: magenta;
+        font-size: 50;
+        font-weight: bolder;
+        text-align: center;
+      }
+      
+  .photo{
+    height: 500px;
+    width: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  }

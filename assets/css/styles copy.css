@@ -1,0 +1,21 @@
+body {
+	font-family: Cochin;
+	font-size: 28px;
+	background-color: blueviolet;
+	margin: 50px;
+	text-align: center; 
+}
+
+h{
+	text-transform: uppercase;
+	letter-spacing: 15px;
+}
+
+.title {
+	font-family: Tahoma;
+	font-size: 28px; 
+	color: yellowgreen
+	letter-spacing: 25px; 
+	padding: 50px;
+}
+
