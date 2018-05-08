@@ -1,0 +1,145 @@
+body {
+    background: url("../images/Carolyn McNeal_edited.png");
+    /* background-color: #cccccc; */
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+
+} 
+
+    
+video {
+    position: fixed; right: 0; bottom: 0;
+    min-width: 100%; min-height: 100%;
+    width: auto; height: auto; z-index: -100;
+    /*background: url(polina.jpg) no-repeat;*/
+    background-size: cover;
+}
+
+
+/* Fixed/sticky icon bar (vertically aligned 50% from the top of the screen) */
+.icon-bar {
+    position: fixed;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+/* Style the icon bar links */
+.icon-bar a {
+    display: block;
+    top: 500px;
+    text-align: center;
+    padding: 16px;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 20px;
+}
+
+/* Style the social media icons with color, if you want */
+.icon-bar a:hover {
+    background-color: #000;
+}
+
+.text-container{
+    float: right;
+    height: 100%;
+    width: 50%;
+    /* padding-left: 50%; */
+    position: fixed;
+    background-color: transparent;
+    opacity: 0.8;
+}
+
+#videoElementId {
+    width: 50% !important;
+    height: 100%;
+    
+}
+
+#line1{
+    padding-left: 40px;
+    font-size: 30px;
+}
+.line2-4{
+    padding-left: 150px;
+}
+.sentence{
+    padding-left: 150px;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none;
+    position: left;
+    z-index: 1;
+    padding-top: 40px;
+    /*left: 0;*/
+    /*top: 0;*/
+    width: 50%;
+    height: 100%;
+    /*overflow: auto;*/
+    background-color: black;
+}
+
+/* Modal Content */
+.modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    width: 50%;
+    height: 50%;
+    max-width: 1200px;
+}
+
+/* The Close Button */
+.close {
+    color: white;
+    /*position: absolute;*/
+    /*top: 10px;*/
+    /*right: 25px;*/
+    font-size: 35px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+form {
+    background-color: black;
+}
+
+/* Video fadeout animation */
+@keyframes fade-out {
+    to {
+      opacity: 0;
+    }
+  }
+  .anim-fade-out {
+    animation: fade-out 5s forwards;
+  }
+
+  @keyframes fade-in {
+    to {
+      opacity: 1;
+    }
+  }
+  .anim-fade-in {
+    animation: fade-in 5s forwards;
+    display: block;
+  }
+
